@@ -1,5 +1,5 @@
 {
-  "name": "Ultra Realistic AFK Bot",
+  "name": "HumanLike AFK Bot",
 
   "bot-account": {
     "username": "YourBotName",
@@ -21,6 +21,7 @@
   },
 
   "utils": {
+
     "anti-afk": {
       "enabled": true,
       "sneak": false
@@ -28,30 +29,35 @@
 
     "chat-log": true,
 
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
     "auto-reconnect": true,
-    "auto-reconnect-delay": 7000,
-    "max-reconnect-delay": 30000,
+    "auto-reconnect-delay": 10000,
+    "max-reconnect-delay": 45000,
 
     "periodic-rejoin": {
       "enabled": true,
-      "min-interval": 45,
-      "max-interval": 120
+      "min-interval": 60,
+      "max-interval": 180
     },
 
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 900000,
+      "repeat-delay": 1200000,
 
       "messages": [
-        "lol",
         "gg",
-        "nice",
+        "lol",
+        "nice farm",
         "brb",
-        "anyone farming?",
-        "server lag today",
-        "xp grind time",
-        "hi"
+        "anyone online?",
+        "lag today",
+        "hi",
+        "xp grind"
       ]
     }
   },
@@ -61,18 +67,18 @@
 
     "circle-walk": {
       "enabled": true,
-      "radius": 1,
-      "speed": 7000
+      "radius": 2,
+      "speed": 8500
     },
 
     "look-around": {
       "enabled": true,
-      "interval": 12000
+      "interval": 15000
     },
 
     "random-jump": {
       "enabled": true,
-      "interval": 35000
+      "interval": 45000
     }
   },
 
