@@ -8,8 +8,8 @@
   },
 
   "server": {
-    "ip": "yourserver.aternos.me",
-    "port": 25565,
+    "ip": "Armansmp-syT1.aternos.me:59813",
+    "port": 59813,
     "version": "1.21.4"
   },
 
