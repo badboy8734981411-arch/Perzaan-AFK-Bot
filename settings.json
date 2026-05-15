@@ -3,89 +3,57 @@
   "bot-account": {
     "username": "Arman1144",
     "password": "",
-    "type": "online"
+    "type": "offline"
   },
+
   "server": {
     "ip": "Armansmp-syT1.aternos.me",
     "port": 59813,
     "version": "1.21.4"
   },
+
   "position": {
     "enabled": true,
     "x": 0,
     "y": 100,
     "z": 0
   },
+
   "utils": {
-    "auto-auth": {
-      "enabled": true,
-      "password": "Perzuu"
-    },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
-    "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 500,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Perzaan Gaming!",
-        "I like to play Minecraft!"
-      ]
-    },
+
     "chat-log": true,
+
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
+    "auto-reconnect-delay": 5000,
+
     "periodic-rejoin": {
       "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
+      "min-interval": 30,
+      "max-interval": 90
     }
   },
+
   "movement": {
     "enabled": true,
+
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "radius": 2,
+      "speed": 4000
     },
+
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 8000
     },
+
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 15000
     }
-  },
-  "modules": {
-    "avoidMobs": true,
-    "combat": true,
-    "beds": true,
-    "chat": true,
-    "console-commands": true
-  },
-  "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
-  },
-  "beds": {
-    "pick-up-day": true,
-    "place-night": true
-  },
-  "discord": {
-    "enabled": true,
-    "webhookUrl": "",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": true
   }
 }
