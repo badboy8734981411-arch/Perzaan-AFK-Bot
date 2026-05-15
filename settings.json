@@ -1,5 +1,5 @@
 {
-  "name": "HumanLike AFK Bot",
+  "name": "24-7 Survival AFK Bot",
 
   "bot-account": {
     "username": "YourBotName",
@@ -14,9 +14,9 @@
   },
 
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 0,
-    "y": 0,
+    "y": 70,
     "z": 0
   },
 
@@ -35,29 +35,29 @@
     },
 
     "auto-reconnect": true,
-    "auto-reconnect-delay": 10000,
-    "max-reconnect-delay": 45000,
+    "auto-reconnect-delay": 15000,
+    "max-reconnect-delay": 60000,
 
     "periodic-rejoin": {
       "enabled": true,
-      "min-interval": 60,
-      "max-interval": 180
+      "min-interval": 90,
+      "max-interval": 240
     },
 
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 1200000,
+      "repeat-delay": 1800000,
 
       "messages": [
-        "gg",
-        "lol",
-        "nice farm",
+        "afk farming",
         "brb",
+        "gg",
+        "xp time",
         "anyone online?",
-        "lag today",
-        "hi",
-        "xp grind"
+        "server smooth today",
+        "nice build",
+        "hi"
       ]
     }
   },
@@ -67,25 +67,25 @@
 
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
-      "speed": 8500
+      "radius": 1,
+      "speed": 12000
     },
 
     "look-around": {
       "enabled": true,
-      "interval": 15000
+      "interval": 20000
     },
 
     "random-jump": {
       "enabled": true,
-      "interval": 45000
+      "interval": 60000
     }
   },
 
   "modules": {
     "avoidMobs": true,
     "combat": false,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": false
   },
@@ -93,6 +93,11 @@
   "combat": {
     "attack-mobs": false,
     "auto-eat": true
+  },
+
+  "beds": {
+    "pick-up-day": false,
+    "place-night": true
   },
 
   "chat": {
